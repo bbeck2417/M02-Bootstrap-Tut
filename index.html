@@ -22,7 +22,7 @@
     </div>
     <div class="d-flex align-items-center flex-column">
       <h1>Container Sizes</h1>
-      <p>Adjust viewport for responsiveness.</p>
+      <p>Adjust viewport for responsiveness if on Desktop.</p>
     </div>
     <div class="container-sm bg-secondary border text-white">.container-sm</div>
     <div class="container-md bg-primary border text-white">.container-md</div>
@@ -33,39 +33,43 @@
     </div>
     <div class="d-flex align-items-center flex-column">
       <h1>Grid Basics</h1>
-      <p>Adjust viewport for responsiveness.</p>
+      <p>Adjust viewport for responsiveness if on Desktop.</p>
     </div>
-    <div class="row">
-      <p class="text-center">This row has equal columns</p>
+    <div class="row mb-3 mt-3 col-10 col-md-6 col-lg-10 mx-auto">
+      <p class="text-center mb-0">This row has equal columns</p>
       <div class="col-sm-6 bg-primary border text-white">.col-sm-6</div>
       <div class="col-sm-6 bg-secondary border text-white">.col-sm-6</div>
     </div>
-    <div class="row">
-      <p class="text-center">This row has equal columns</p>
+    <div class="row mb-3 mt-3 col-10 col-md-6 col-lg-10 mx-auto">
+      <p class="text-center mb-0">This row has equal columns</p>
       <div class="col-md-4 bg-primary border text-white">.col-md-4</div>
       <div class="col-md-4 bg-secondary border text-white">.col-md-4</div>
       <div class="col-md-4 bg-primary border text-white">.col-md-4</div>
     </div>
-    <div class="row">
-      <p class="text-center">This row has equal columns</p>
+    <div class="row mb-3 mt-3 col-10 col-md-6 col-lg-10 mx-auto">
+      <p class="text-center mb-0">This row has equal columns</p>
       <div class="col-lg-3 bg-primary border text-white">.col-lg-3</div>
       <div class="col-lg-3 bg-secondary border text-white">.col-lg-3</div>
       <div class="col-lg-3 bg-primary border text-white">.col-lg-3</div>
       <div class="col-lg-3 bg-secondary border text-white">.col-lg-3</div>
     </div>
-    <div class="row">
-      <p class="text-center">This row has unequal columns</p>
+    <div class="row mb-3 mt-3 col-10 col-md-6 col-lg-10 mx-auto">
+      <p class="text-center mb-0">This row has unequal columns</p>
       <div class="col-xl-3 bg-primary border text-white">.col-xl-3</div>
       <div class="col-xl-4 bg-secondary border text-white">.col-xl-4</div>
       <div class="col-xl-5 bg-primary border text-white">.col-xl-5</div>
     </div>
-    <div class="row flex-row-reverse">
-      <p class="text-center">This row is reversed</p>
+    <div
+      class="row flex-row-reverse mb-3 mt-3 col-10 col-md-6 col-lg-10 mx-auto"
+    >
+      <p class="text-center mb-0">This row is reversed</p>
       <div class="col-sm-3 bg-primary border text-white">.col-sm-3</div>
       <div class="col-lg-2 bg-secondary text-white">.col-lg-2</div>
       <div class="col-lg-2 bg-primary text-white">.col-lg-2</div>
     </div>
-    <div class="container bg-primary text-white text-center mt-5 p-4">
+    <div
+      class="container col-10 col-md-6 col-lg-10 mx-auto bg-primary text-white text-center mt-5 p-4"
+    >
       <h2>Bootstrap Headings</h2>
       <p class="h1">h1 Bootstrap heading</p>
       <p class="h2">h2 Bootstrap heading</p>
@@ -74,7 +78,9 @@
       <p class="h5">h5 Bootstrap heading</p>
       <p class="h6">h6 Bootstrap heading</p>
     </div>
-    <div class="container bg-secondary text-center text-white pt-5 pb-5 mt-5">
+    <div
+      class="container bg-secondary text-center col-10 col-md-6 col-lg-10 mx-auto text-white pt-5 pb-5 mt-5"
+    >
       <h2>This demonstrates the mark element and the .mark class.</h2>
       <p>
         You can use the HTML
@@ -102,7 +108,7 @@
     </div>
     <!-- <blockquote> example -->
     <div
-      class="container-fluid text-center bg-primary w-50 text-white mt-5 mb-5 p-4"
+      class="container-fluid text-center bg-primary col-10 col-md-6 col-lg-10 mx-auto text-white mt-5 mb-5 p-4"
     >
       <h2 class="mt-5">This demonstrates the blockquote element.</h2>
       <blockquote class="blockquote">
@@ -110,7 +116,9 @@
         <footer class="blockquote-footer text-white">Alan Kay</footer>
       </blockquote>
     </div>
-    <div class="container mt-5 mb-5 mx-auto w-50 bg-secondary p-4 text-white">
+    <div
+      class="container mt-5 mb-5 col-10 col-md-6 col-lg-10 mx-auto bg-secondary p-4 text-white"
+    >
       <!-- This is an example of <dl> element -->
       <h1>Description Lists</h1>
       <p>The &lt;dl&gt; element indicates a description list:</p>
@@ -121,7 +129,9 @@
         <dd>- white cold drink</dd>
       </dl>
     </div>
-    <div class="container mb-5 mt-5 mx-auto w-50 p-4 bg-primary text-white">
+    <div
+      class="container mb-5 mt-5 col-10 col-md-6 col-lg-10 mx-auto p-4 bg-primary text-white"
+    >
       <h1>This is an example of useing the &lt;code&gt; element</h1>
       <span class="d-flex justify-content-center">
         <p class="bg-black p-2">
@@ -130,7 +140,9 @@
         </p>
       </span>
     </div>
-    <div class="container mb-5 mt-5 mx-auto w-50 p-4 bg-secondary text-white">
+    <div
+      class="container mb-5 mt-5 col-10 col-md-6 col-lg-10 mx-auto p-4 bg-secondary text-white"
+    >
       <h1>This is an example of useing the &lt;kbd&gt; element</h1>
       <span class="d-flex justify-content-center">
         <p>
@@ -139,7 +151,9 @@
         </p>
       </span>
     </div>
-    <div class="mx-auto w-50 bg-primary text-white p-4 mb-5">
+    <div
+      class="col-10 col-md-6 col-lg-10 mx-auto bg-primary text-white p-4 mb-5"
+    >
       <h1>
         This is an example of the &lt;pre&gt; element. This is great for
         displaying multiple lines of code.
@@ -158,7 +172,9 @@
         console.log(sum(2, 2));
       </pre>
     </div>
-    <div class="container-fluid w-50 bg-secondary mb-5 mt-5 p-4 mx-auto">
+    <div
+      class="container-fluid col-10 col-md-6 col-lg-10 mx-auto bg-secondary mb-5 mt-5 p-4 mx-auto"
+    >
       <h1>This is an example of text colors</h1>
       <h5 class="text-white">.text-muted</h5>
       <p class="text-muted bg-white p-2">
