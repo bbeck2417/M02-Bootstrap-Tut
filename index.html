@@ -764,6 +764,8 @@
         width="304"
         height="236"
       />
+    </div>
+    <div class="container mt-3">
       <h2>Circle</h2>
       <p>The .rounded-circle class shapes the image to a circle:</p>
       <img
@@ -773,6 +775,8 @@
         width="304"
         height="236"
       />
+    </div>
+    <div class="container mt-3">
       <h2>Thumbnail</h2>
       <p>
         The .img-thumbnail class shapes the image to a thumbnail (bordered):
@@ -785,7 +789,7 @@
         height="236"
       />
     </div>
-    <div class="container mt-3">
+    <div class="container mt-3 clearfix">
       <h2>Aligning images</h2>
       <p>
         Use the float classes to float the image to the left or to the right:
@@ -805,13 +809,19 @@
         height="236"
       />
     </div>
-    <div class="container mt-3">
-      <h2>Centered Image</h2>
-      <p>
-        Center an image by adding the utility classes .mx-auto (margin:auto) and
-        .d-block (display:block) to the image:
-      </p>
-      <img src="images/parrot.jpg" class="mx-auto d-block" style="width: 50%" />
+    <div>
+      <div class="container mt-3">
+        <h2>Centered Image</h2>
+        <p>
+          Center an image by adding the utility classes .mx-auto (margin:auto)
+          and .d-block (display:block) to the image:
+        </p>
+        <img
+          src="images/parrot.jpg"
+          class="mx-auto d-block"
+          style="width: 50%"
+        />
+      </div>
     </div>
     <div class="container mt-3">
       <h2>Image</h2>
@@ -1160,31 +1170,35 @@
         Disabled Primary
       </button>
       <a href="#" class="btn btn-primary disabled">Disabled Link</a>
-      <p class="mt-3">The class .active makes a button appear pressed, and the disabled attribute makes a button unclickable. Note that <a> elements do not support the disabled attribute and must therefore use the .disabled class to make it visually appear disabled.</p>
+      <p class="mt-3">
+        The class .active makes a button appear pressed, and the disabled
+        attribute makes a button unclickable. Note that &lt;a&gt; elements do
+        not support the disabled attribute and must therefore use the .disabled
+        class to make it visually appear disabled.
+      </p>
     </div>
     <div class="container mt-3">
-  <h2>Spinner Buttons</h2>
-  <p>Add spinners to buttons:</p>
-                                        
-  <button class="btn btn-primary">
-    <span class="spinner-border spinner-border-sm"></span>
-  </button>
+      <h2>Spinner Buttons</h2>
+      <p>Add spinners to buttons:</p>
 
-  <button class="btn btn-primary">
-    <span class="spinner-border spinner-border-sm"></span>
-    Loading..
-  </button>
-  
-  <button class="btn btn-primary" disabled>
-    <span class="spinner-border spinner-border-sm"></span>
-    Loading..
-  </button>
-  
-  <button class="btn btn-primary" disabled>
-    <span class="spinner-grow spinner-grow-sm"></span>
-    Loading..
-  </button>
-</div>
+      <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+      </button>
 
+      <button class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+      </button>
+
+      <button class="btn btn-primary" disabled>
+        <span class="spinner-border spinner-border-sm"></span>
+        Loading..
+      </button>
+
+      <button class="btn btn-primary" disabled>
+        <span class="spinner-grow spinner-grow-sm"></span>
+        Loading..
+      </button>
+    </div>
   </body>
 </html>
